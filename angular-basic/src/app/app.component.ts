@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-basic';
+  serverName:string = ""
+  serverCreated:boolean = false
+
+  onCreateServer() {
+    this.serverCreated = true
+  }
+
 }
