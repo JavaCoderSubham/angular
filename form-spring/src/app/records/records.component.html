@@ -1,0 +1,17 @@
+<div class="container">
+    <div class="row">
+        <tbody class="table">
+            <tr class="table-row">
+                <td class="table-data">Name</td>
+                <td class="table-data">Email</td>
+                <td class="table-data">Password</td>
+            </tr>
+            <tr *ngFor="let item of testUser" class="table-row">
+                <td class="table-data">{{item.name}}</td>
+                <td class="table-data">{{item.email}}</td>
+                <td class="table-data">{{item.password}}</td>
+                <hr>
+            </tr>
+        </tbody>
+    </div>
+</div>

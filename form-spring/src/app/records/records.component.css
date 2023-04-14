@@ -1,0 +1,19 @@
+.table {
+    height: 400px;
+    width: 600px;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+}
+
+.table .table-row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.table-data {
+    border: 2px solid blue;
+    display: flex;
+    flex: 1;
+}

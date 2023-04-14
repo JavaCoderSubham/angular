@@ -1,0 +1,21 @@
+
+spring:
+  application:
+    name: CRUD
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/angular_springboot
+    username: root
+    password: Subham@1997
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+    show-sql: true
+
+
+
+
+
